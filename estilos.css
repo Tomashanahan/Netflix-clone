@@ -1,0 +1,170 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    background: #141414;
+    margin: 0;
+    color: #E5E5E5;
+    scroll-behavior: smooth;
+}
+
+.navegador {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+}
+
+.navegador__izquierdo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo_navegador {
+    margin-top: 8px;
+}
+
+.navegador__izquierdo_a, .navegador__derecho_a {
+    color: #E5E5E5;
+    text-decoration: none;
+    margin-left: 25px;
+    transition: .3s;
+}
+
+.navegador__izquierdo_a:hover {
+    text-decoration: underline;
+    color: #333;
+}
+
+.seccion__cabecera {
+    background-image: url(img_Netflix/banner.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.banner {
+    width: 400px;
+    margin-left: 35px;
+    margin-top: 150px;
+}
+
+.banner__h1, .banner__a_1, .banner__a_2, .banner_p {
+    color: #E5E5E5;
+}
+
+.banner__h1 {
+    font-size: 50px;
+}
+
+.banner_p, .banner__a_1, .banner__a_2 {
+    font-size: 14px;
+}
+
+.banner__a_1, .banner__a_2 {
+    display: inline-block;
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.30);
+    backdrop-filter: blur(30px);
+    border-radius: 10px;
+    padding: 8px;
+    transition: .3s;
+}
+
+.banner__a_2 {
+    margin-left: 5px;
+}
+
+.banner__a_1:hover, .banner__a_2:hover {
+    background: rgba(122, 119, 119, 0.3);
+    backdrop-filter: blur(30px);
+    border-radius: 10px;
+    padding: 8px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+.mi__lista, .populares, .series, .peliculas {
+    margin: 25px;
+}
+
+.mi__lista__img, .imgs {
+    margin: 5px;
+    border-radius: 5px;
+    transition: .8s;
+}
+
+.mi__lista__img:hover, .imgs:hover {
+    box-shadow: 1px 1px 10px #636262c2;
+}
+
+/* .mi__lista__img:hover {
+    height: 500px;
+} */
+
+.imgs:hover {
+    height: 200px;
+}
+
+.contenedor {
+    display: flex;
+    /* justify-content: space-evenly; */
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+}
+
+li {
+    /* margin-left: 20px; */
+    padding: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+}
+
+.creador {
+    display: flex;
+    align-items: center;
+}
+
+.mi_linkedin {
+    margin-left: 8px;
+}
+
+.volver {
+    text-decoration: none;
+}
+
+.volver__logo {
+    background: rgba(85, 82, 82, 0.74);
+    backdrop-filter: blur(20px);
+    border-radius: 50px;
+    padding: 10px;
+    transition: .5s;
+}
+
+.volver__logo:hover{
+    background: rgba(158, 153, 153, 0.74);
+    backdrop-filter: blur(20px);
+    border-radius: 50px;
+    padding: 10px;
+}
+
+
+.div__volver {
+    width: 200px;
+}
